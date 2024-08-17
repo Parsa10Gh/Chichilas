@@ -1,0 +1,85 @@
+.about-container{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+
+}
+.about-title{
+
+}
+.about-title h1{
+    color: #ffffff;
+    font-family: 'b titr';
+    -webkit-text-stroke: 3px rgba(0, 193, 222, 1);
+    font-weight: 700;
+    font-size: 42px;
+}
+.about-cards{
+    /* background-color: rgb(103, 103, 180); */
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 50px;
+
+}
+.about-cards-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin: 0;
+}
+.about-cards-list-item{
+    /* background-color: blueviolet; */
+    margin: 0 10px;
+    width: 224px;
+    height: 168px;
+    direction: rtl;
+}
+.about-cards-list-item-container{
+    background-color: #E7F9FC;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    padding: 32px 20px 0 20px;
+}
+.about-cards-list-item-container div{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7F9FC;
+    color: rgba(0, 151, 173, 1);
+    font-size: 23px;
+    border: 4px solid #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    top: -14%;
+}
+
+.about-cards-list-item-container h6{
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 14px;
+}
+.about-cards-list-item-container p{
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+

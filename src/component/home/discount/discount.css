@@ -1,0 +1,371 @@
+.discount-container{
+    background-color: rgba(248, 10, 24, 1);
+    position: relative;
+}
+.discount-row{
+    /* text-align: center; */
+    padding: 30px 245px;
+    direction: rtl;
+    /* padding-bottom: 45px; */
+    /* text-align: center; */
+}
+.timer-discount-col{
+    /* background-color: #2B3446; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+
+}
+.title-discount{
+    /* background-color: blue; */
+    /* position: absolute;
+    top: -30px; */
+    margin-top: -11%;
+    padding-bottom: 15px;
+    color: white;
+    font-family: 'b yekan';
+    text-shadow: 1px 1px 0 rgba(248, 10, 24, 1),
+    -1px 1px 0 rgba(248, 10, 24, 1),
+    1px -1px 0 rgba(248, 10, 24, 1),
+    -1px -1px 0 rgba(248, 10, 24, 1),
+    0px 1px 0 rgba(248, 10, 24, 1),
+    0px -1px 0 rgba(248, 10, 24, 1),
+    -1px 0px 0 rgba(248, 10, 24, 1),
+    1px 0px 0 rgba(248, 10, 24, 1),
+    2px 2px 0 rgba(248, 10, 24, 1),
+    -2px 2px 0 rgba(248, 10, 24, 1),
+    2px -2px 0 rgba(248, 10, 24, 1),
+    -2px -2px 0 rgba(248, 10, 24, 1),
+    0px 2px 0 rgba(248, 10, 24, 1),
+    0px -2px 0 rgba(248, 10, 24, 1),
+    -2px 0px 0 rgba(248, 10, 24, 1),
+    2px 0px 0 rgba(248, 10, 24, 1),
+    1px 2px 0 rgba(248, 10, 24, 1),
+    -1px 2px 0 rgba(248, 10, 24, 1),
+    1px -2px 0 rgba(248, 10, 24, 1),
+    -1px -2px 0 rgba(248, 10, 24, 1),
+    2px 1px 0 rgba(248, 10, 24, 1),
+    -2px 1px 0 rgba(248, 10, 24, 1),
+    2px -1px 0 rgba(248, 10, 24, 1),
+    -2px -1px 0 rgba(248, 10, 24, 1);
+}
+.title-discount h1{
+    /* background-color: aqua; */
+    font-size: 50px;
+    margin: 0%;
+
+}
+
+.timer-discount{
+    /* background-color: #26f80a; */
+    width: fit-content;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    color: white;
+}
+.timer-discount div{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 68, 79, 1);
+    margin: 0 5px;
+    border-radius: 16px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; */
+    text-align: center;
+}
+.timer-discount div p{
+    /* background-color: rgb(26, 67, 53); */
+    margin: 0;
+}
+.num-discount{
+    font-family: 'b yekan';
+    font-size: 22px;
+    font-weight: 700;
+}
+.text-discount{
+    font-family: 'b yekan';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.discounted-items-container{
+    background: linear-gradient(to bottom, red 45%, white 45%);
+    /* height: 410px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: scroll;
+}
+.discounted-items-row{
+    /* background-color: #c09ea0; */
+    text-align: center;
+    /* padding: 0 110px; */
+}
+.discounted-item-col{
+}
+.discounted-item{
+    direction: rtl;   
+    width: fit-content;
+    width: 282px;
+    height: 402px;
+    padding: 20px; 
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #E9F0F7;
+    box-shadow: 4px 4px 1px #E9F0F7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discounted-item-img{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.discounted-item-img div{
+    width: 60px;
+    height: 36px;
+    background: #F80A18;
+    border: 3px solid #FFFFFF;
+    border-radius: 14px;
+    font-family: 'b yekan';
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -6%; */
+    /* margin-bottom: 0; */
+    position: absolute;
+    top: 90%;
+
+}
+.discounted-item-img img{
+    background-color: #2B3446;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.discounted-items-title{
+    /* background-color: coral; */
+    text-align: center;
+    width: fit-content; 
+    margin-top: 18px;
+}
+.discounted-items-title h5{
+    font-weight: 600;
+    font-size: 16px;
+}
+.discounted-items-price{
+    margin-top: 18px;
+}
+
+.discounted-items-price p{
+    font-family: 'b yekan';
+    font-weight: 500;
+    font-size: 16px;
+    color: #F80A18;
+}
+.discounted-items-price .after-discount{
+    font-weight: 600;
+    font-size: 18px;
+}
+.discounted-items-price .before-discount{
+    color: #A4BAC9;
+    font-weight: 500;
+    font-size: 16px;
+    /* text-decoration-line: line-through; */
+}
+.discount-btn-r , .discount-btn-l{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #2B3446;
+    border-radius: 100%;
+    box-shadow: 2px 2px 0px #2B3446;
+    font-size: 20px;
+    z-index: 1;
+    position: absolute;
+}
+.discount-btn-l{
+    top: 40%;
+    left: 217px;
+}
+.discount-btn-r{
+    top: 40%;
+    right: 217px;
+}
+.discount-btn-l:hover , .discount-btn-r:hover{
+    box-shadow: none;
+}
+
+.discount-card-container{
+    background: linear-gradient(to bottom, white 50%, #FFD8B3 50%);
+    width: 100%;
+    margin-top: 120px;
+    padding: 70px 20px;
+}
+
+.discount-card-row{
+    margin: 0 auto;
+    background-color: rgba(245, 133, 0, 1);
+    width: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+.discount-code-container{
+    /* background-color: rgba(245, 133, 0, 1); */
+    /* height: 180px; */
+    padding: 55px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 20px 0 0 20px; */
+    border-right: 8px dotted white; 
+}
+.about-discount-card{
+    /* background-color: rgb(161, 152, 139); */
+    font-family: 'b yekan';
+    padding: 35px 0px;
+}
+.about-discount-card-col{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount-code-box{
+    background-color: rgba(255, 161, 51, 1);
+    /* width: 280px; */
+    /* height: 70px; */
+    /* margin: 0 5px; */
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.copy-discount-code{
+    background-color: white;
+    height: 54px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 17px;
+    color: rgba(245, 133, 0, 1);
+}
+.discount-code{
+    color: white;
+}
+.discount-card-title{
+    font-weight: 600;
+    font-size: 56px;
+    /* background-color: #F80A18; */
+    width: fit-content;
+    color: rgba(245, 133, 0, 1);
+    text-shadow: 1px 1px 0 #FFFFFF,
+    -1px 1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+    -1px -1px 0 #FFFFFF,
+    0px 1px 0 #FFFFFF,
+    0px -1px 0 #FFFFFF,
+    -1px 0px 0 #FFFFFF,
+    1px 0px 0 #FFFFFF,
+    2px 2px 0 #FFFFFF,
+    -2px 2px 0 #FFFFFF,
+    2px -2px 0 #FFFFFF,
+    -2px -2px 0 #FFFFFF,
+    0px 2px 0 #FFFFFF,
+    0px -2px 0 #FFFFFF,
+    -2px 0px 0 #FFFFFF,
+    2px 0px 0 #FFFFFF,
+    1px 2px 0 #FFFFFF,
+    -1px 2px 0 #FFFFFF,
+    1px -2px 0 #FFFFFF,
+    -1px -2px 0 #FFFFFF,
+    2px 1px 0 #FFFFFF,
+    -2px 1px 0 #FFFFFF,
+    2px -1px 0 #FFFFFF,
+    -2px -1px 0 #FFFFFF;
+}
+.discount-card-text{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    /* width: fit-content; */
+    word-wrap: normal;
+    /* background-color: #F80A18; */
+    margin: auto 0;
+}
+
+@media screen and (max-width:1200px){
+    .title-discount{
+        text-align: center;
+    }
+    .discount-code-container{
+        border-top: 8px dotted white;
+        border-right: none; 
+    }
+    .discounted-item{
+        width: 220px;
+        height: 330px;
+    }
+    .discount-btn-r{
+        right: 80px;
+    }
+    .discount-btn-l{
+        left: 80px;
+    }
+    .discounted-items-row{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .discount-row{
+        padding: 32px 0;
+    }
+    .timer-discount-col{
+        justify-content: center;
+    }
+    .title-discount{
+        /* right: 40%; */
+    }
+    .discount-card-text{
+        text-align: center;
+    }
+    .hide{
+        display: none;
+    }
+}
+@media screen and (max-width:992px){
+    .discount-card-container{
+        padding: 70px 20px;
+    }
+    .discount-card-title{
+        font-size: 40px;
+    }
+    .discount-card-text{
+        font-size: 14px;
+    }
+}

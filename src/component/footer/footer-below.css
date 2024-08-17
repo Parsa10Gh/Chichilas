@@ -1,0 +1,195 @@
+.footer-below{
+
+}
+.footer-below-row{
+    /* background-color: aqua; */
+    direction: rtl;
+    padding: 0 150px;
+}
+.footer-below-col{
+    /* padding: 0 49px; */
+    /* background-color: magenta; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.footer-below-contact{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.footer-below-contact-text{
+    /* background-color: chocolate; */
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-family: 'b yekan';
+}
+.footer-below-contact h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(43, 52, 70, 1);
+}
+.footer-below-icon{
+    font-size: 22px;
+    display: inline;
+    color: rgba(0, 193, 222, 1);
+}
+.footer-below-contact p{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(43, 52, 70, 1);
+}
+.footer-below-contact span{
+    color: rgba(108, 134, 151, 1);
+    font-weight: 600;
+    font-size: 14px;
+}
+.footer-below-contact img{
+    width: 90%;
+    border-radius: 12px;
+}
+.footer-below-links{
+    /* background-color: darkkhaki; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-below-links-list{
+    font-family: 'b yekan';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 10px; */
+}
+.footer-below-links-list-item{
+    margin: 8px 0;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(79, 110, 131, 1);
+}
+.footer-below-links-list-item-title{
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(43, 52, 70, 1);
+}
+
+.footer-below-socials{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    font-family: 'b yekan';
+}
+.footer-below-socials-title{
+    /* background-color: sandybrown; */
+}
+.footer-below-socials-title h6{
+    /* background-color: lightblue; */
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(43, 52, 70, 1);
+}
+.footer-below-socials-list{
+    background-color: rgba(255, 229, 230, 1);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 22px;
+    border-radius: 12px;
+}
+.footer-below-socials-list-item{
+    /* background-color: green; */
+    padding: 10px 15px;
+    color: rgba(241, 95, 104, 1);
+}
+.footer-below-standards{
+    /* background-color: brown; */
+}
+.footer-below-standards img{
+    width: 110px;
+    height: 140px;
+    border: 1px solid #E9F0F7;
+    border-radius: 12px;
+    margin: 0 6px;
+}
+
+.footer-site-discribtion{
+    width: 100%;
+    /* background-color: rgb(106, 106, 197); */
+    /* padding: 0 100px; */
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'b yekan';
+
+}
+.footer-site-discribtion h5{
+    /* background-color: antiquewhite; */
+    width: 40%;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 32px;
+    color: rgba(43, 52, 70, 1);
+    text-align: center;
+}
+.footer-site-discribtion p{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(79, 110, 131, 1);
+}
+.footer-below-rights{
+    padding: 20px;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-below-rights p{
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(148, 166, 178, 1);
+}
+
+@media screen and (max-width:1302px){
+    .footer-below-row{
+        padding: 0 70px;
+    }
+    .footer-below-standards img{
+        width: 88px;
+        height: 106px;
+    }
+}
+@media screen and (max-width:576px){
+    .footer-below-row{
+        padding: 0;
+    }
+    .footer-below-standards img{
+        width: 88px;
+        height: 106px;
+    }
+    .footer-site-discribtion{
+        display: none;
+    }
+    .footer-below-links{
+        /* padding: ; */
+    }
+}

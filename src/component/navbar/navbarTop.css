@@ -1,0 +1,192 @@
+.navTop-container-lg{
+    /* background-color: aqua; */
+    padding: 20px 120px;
+    direction: rtl;
+}
+.navTop-container{
+    display: none;
+}
+.navTop-row{
+    /* background-color: rgb(57, 103, 12); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navTop-col{
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navTop-contact-col{
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navTop-user-profile{
+    /* background-color: rgb(218, 199, 31); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px rgba(195, 208, 217, 1) solid;
+}
+.navTop-user-profile-list{
+    /* background-color: firebrick; */
+    list-style: none;
+    color: rgba(79, 110, 131, 1);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    padding: 5px 0;
+    padding-right: 15px;
+}
+.navTop-user-profile-item{
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+}
+.navTop-user-profile-list-item-navLink{
+    color: rgba(79, 110, 131, 1);
+}
+.navTop-user-profile-item:hover{
+    background-color: #f15f6923;
+    color: #f15f69;
+    cursor: pointer;
+}
+.navTop-user-profile-count{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 248, 251, 1);
+    color: rgba(79, 110, 131, 1);
+    border-radius: 100%;
+    font-family: 'b yekan';
+    font-size: 18px;
+    font-weight: 700;
+}
+.navTop-contact{
+    /* background-color: #ca5ff1ef; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+}
+.navTop-contact-icon{
+    background-color: #F15F68;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.navTop-contact-text{
+    /* background-color: deeppink; */
+}
+.navTop-contact-text h6{
+    /* background-color: cornflowerblue; */
+    margin: 0 0 3px 0;
+    font-family: 'b yekan';
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(43, 52, 70, 1);
+}
+.navTop-contact-text p{
+    /* background-color: olive; */
+    margin: 0;
+    font-family: 'b yekan';
+    font-size: 12px;
+    font-weight: 600;
+    color: #6C8697;
+}
+.navTop-search-bar{
+    background-color: #F3F8FB;
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E9F0F7;
+    box-shadow: 2px 2px 0px #E9F0F7;
+    border-radius: 12px;
+}
+.navTop-search-bar input{
+    background: none;
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+    border: none;
+    font-family: 'b yekan';
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+
+}
+.navTop-search-btn{
+    background-color: #F3F8FB;
+    border: none;
+    width: 46px;
+    height: 46px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    /* margin-bottom: 7px; */
+    color: rgba(79, 110, 131, 1);
+    border-radius: 100%;
+}
+.navTop-search-btn:hover{
+    background-color: #dee1e2;
+}
+.navTop-logo{
+    /* background-color: darkgreen; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navTop-logo img{
+    width: 150px;
+}
+
+@media screen and (max-width:1200px){
+    .navTop-container-lg{
+        padding: 20px 90px;
+    }
+}
+@media screen and (max-width:992px){
+    .navTop-container-lg{
+        display: none;
+    }
+    .navTop-container{
+        display: grid;
+        direction: rtl;
+        padding: 20px 90px;
+    }
+    .navTop-user-profile{
+        border: none;
+    }
+    .navTop-contact-col{
+        /* display: none; */
+    }
+    .navTop-logo{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:576px){
+    .navTop-container{
+        padding: 20px 20px;
+    }
+}

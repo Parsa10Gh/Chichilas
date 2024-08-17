@@ -1,0 +1,245 @@
+*{
+    /* font-family: 'b yekan'; */
+}
+.productsPath{
+    /* background-color: aqua; */
+    direction: rtl;
+    font-weight: 500;
+    /* font-family: 'b yekan'; */
+    font-size: 12px;
+    color: #4F6E83;
+    display: flex;
+    align-items: center;
+    padding: 30px 210px 10px;
+}
+.productsPath div{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 9px;
+    background-color: rgba(243, 248, 251, 1);
+    border-radius: 5px;
+}
+.productsPath p{
+    /* background-color: brown; */
+    margin: 0;
+}
+.products-activeTitle{
+    direction: rtl;
+    padding: 30px 210px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #4F6E83;
+
+}
+.products-container{
+    /* background-color: burlywood; */
+    padding: 0 210px;
+    display: flex;
+    direction: rtl;
+    margin: 0;
+}
+.products-filter{
+    /* background-color: blueviolet; */
+}
+.products-filter-1400px{
+    background-color: rgba(250, 250, 250, 1);
+    margin-right: 24px;
+    padding: 15px 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    border-radius: 20px;
+    display: none;
+}
+.products-filter-1400px:hover{
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+
+}
+.products-filter-1400px h6{
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B3446;
+}
+.products-allProducts{
+    /* background-color: aqua; */
+    width: 100%;
+}
+.products-allProducts-row{
+    /* background-color: chocolate; */
+    margin: 0;
+    padding: 0;
+}
+.products-allProducts-col{
+    /* background-color: blueviolet; */
+    margin: 0;
+    padding: 0;
+    padding-right: 24px;
+}
+.products-allProducts-card{
+    /* background-color: sandybrown; */
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #E9F0F7;
+    box-shadow: 4px 4px 0px #E9F0F7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+
+}
+.products-allProducts-card img{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.products-allProducts-card h6{
+    /* background-color: darkblue; */
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B3446;
+}
+.products-allProducts-card-priceBox{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #04A7BF;   
+}
+.products-allProducts-card-price{
+    font-weight: 600;
+    font-size: 18px; 
+}
+.products-allProducts-card-discountedPriceBox{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #F80A18;
+}
+.products-allProducts-card-beforeDiscountPrice{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px; 
+    color: #A4BAC9;
+    margin: 0 2px;
+}
+.products-sort{
+    background-color: rgba(250, 250, 250, 1);
+    margin-right: 24px;
+    padding: 15px 23px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    border-radius: 20px;
+}
+.products-sort-title{
+    /* background-color: bisque; */
+}
+.products-sort-title p{
+    margin: 0;
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B3446;
+}
+.products-sort-list{
+    /* background-color: #04A7BF; */
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0 4px;
+}
+.products-sort-list-item{
+    /* background-color: #F80A18; */
+    margin: 0 10px;
+    padding: 8px 16px;
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 14px;
+    color: #2B3446;
+    cursor: pointer;
+}
+.products-sort-list-activeItem{
+    background-color: #FFE6E6;
+    margin: 0 10px;
+    padding: 8px 16px;
+    box-shadow: 2px 2px 0px #F15F68;
+    border-radius: 12px;
+    font-family: 'b yekan';
+    font-weight: 600;
+    font-size: 14px;
+    color: #F15F68;
+    cursor: pointer;
+
+}
+.products-filter1400-title{
+    /* background-color: #4F6E83; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    display: none;
+}
+.products-filter1400-title h4{
+    font-family: 'b yekan';
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+
+}
+.products-filter1400-title span{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products-filter1400-title span:hover{
+    cursor: pointer;
+    background-color: #d8d8d8;
+
+}
+
+@media screen and (max-width:1400px){
+    .products-filter{
+        display: none;
+        background-color: #e7e7e7e5;
+        border-radius: 20px;
+        width: 70%;
+        /* height: 100%; */
+        position: absolute;
+        /* padding: 210px; */
+        /* top: 0; */
+        /* right: 0; */
+        right: 15%;
+    }
+    .products-filter-1400px{
+        display: flex;
+    }
+    .products-filter1400-title{
+        display: flex;
+    }
+}
+@media screen and (max-width:992px){
+    .productsPath{
+        padding: 22px 90px;
+    } 
+}
+@media screen and (max-width:576px){
+    .productsPath{
+        padding: 15px 20px;
+    } 
+}
